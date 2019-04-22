@@ -1,0 +1,5 @@
+welcome: Welcome to the color game. I'm going to blink three leds for you. You'll have to repeat the colors backwards. Ready?
+round: Can you repeat the colors backwards?
+win: Good job! Would you like to play again?
+lose: Sorry, that's the wrong answer. Would you like to play again?
+goodbye: Goodbye

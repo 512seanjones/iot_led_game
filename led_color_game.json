@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "led color game",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "first",
+                            "type": "AMAZON.Color"
+                        },
+                        {
+                            "name": "second",
+                            "type": "AMAZON.Color"
+                        },
+                        {
+                            "name": "third",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "{first} {second} and {third} ",
+                        "{first} {second} {third} "
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "sure",
+                        "okay",
+                        "ok",
+                        "play",
+                        "yeah",
+                        "yea",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "no thank you",
+                        "no thanks",
+                        "nope",
+                        "no"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
