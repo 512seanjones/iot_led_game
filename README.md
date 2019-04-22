@@ -10,6 +10,6 @@ The associated json file needs to be loaded into the Alexa Developer Console.
 
 Ngrok needs to be used and properly setup in the Alexa endpoints.
 
-Once all this is setup, simply ask Alexa to "open led color game".
+Once all this is setup, run color_game.py on the raspberry pi and simply ask Alexa to "open led color game".
 
 You can follow the commands from there and watch the breadboard to play the game.
